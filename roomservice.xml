@@ -3,6 +3,7 @@
 
     <!--Remotes-->
     <remote name="source"          fetch="https://github.com/Mgm2023"/>
+    <remote name="LineageOS"       fetch="https://github.com/LineageOS"/>
 
     <!--Devices Trees-->
     <project name="device_samsung_beyond0lte"                   path="device/samsung/beyond0lte"        remote="source"      revision="lineage-20" />
@@ -21,7 +22,12 @@
     <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source"      revision="android-13-2" />
 
     <!-- Dependencies -->
-    <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source"      revision="android-13" />
-    <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="source"      revision="android-13" />
+    <project name="android_device_samsung_slsi_sepolicy"           path="device/samsung_slsi/sepolicy"          remote="source"      revision="android-13" />
+    <project name="android_hardware_samsung"                       path="hardware/samsung"                      remote="source"      revision="android-13" />
+    <project name="android_hardware_samsung_slsi-linaro_openmax"   path="hardware/samsung_slsi-linaro/openmax"  remote="LineageOS"   revision="lineage-20" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos"    path="hardware/samsung_slsi-linaro/exynos"   remote="LineageOS"   revision="lineage-20" />
+    <project name="android_hardware_samsung_slsi-linaro_exynos5"   path="hardware/samsung_slsi-linaro/exynos5"  remote="LineageOS"   revision="lineage-20" />
+    <project name="android_hardware_samsung_slsi-linaro_config"    path="hardware/samsung_slsi-linaro/config"   remote="LineageOS"   revision="lineage-20" />
+    <project name="android_hardware_samsung_slsi-linaro_graphics"  path="hardware/samsung_slsi-linaro/graphics" remote="LineageOS"   revision="lineage-20" />
 
 </manifest>
