@@ -17,13 +17,20 @@
     <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"      revision="android-13" />
 
     <!--Vendors Trees-->
-    <project name="proprietary_vendor_samsung"                  path="vendor/samsung"                   remote="source"      revision="lineage-20" />
+    <project name="android_vendor_samsung_beyond0lte"        path="vendor/samsung/beyond0lte"        remote="vendor"  revision="lineage-20.0" />
+    <project name="android_vendor_samsung_beyond1lte"        path="vendor/samsung/beyond1lte"        remote="vendor"  revision="lineage-20.0" />
+    <project name="android_vendor_samsung_beyond2lte"        path="vendor/samsung/beyond2lte"        remote="vendor"  revision="lineage-20.0" />
+    <project name="android_vendor_samsung_beyondx"           path="vendor/samsung/beyondx"           remote="vendor"  revision="lineage-20.0" />
+    <project name="android_vendor_samsung_d1"                path="vendor/samsung/d1"                remote="vendor"  revision="lineage-20.0" />
+    <project name="android_vendor_samsung_d2s"               path="vendor/samsung/d2s"               remote="vendor"  revision="lineage-20.0" />
+    <project name="android_vendor_samsung_d2x"               path="vendor/samsung/d2x"               remote="vendor"  revision="lineage-20.0" />
+    <project name="android_vendor_samsung_exynos9820-common" path="vendor/samsung/exynos9820-common" remote="vendor"  revision="lineage-20.0" />
 
     <!--Kernel Tree-->
     <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source"      revision="android-13-2" />
 
     <!-- Dependencies -->
-    <project name="android_device_samsung_slsi_sepolicy"           path="device/samsung_slsi/sepolicy"          remote="source"      revision="android-13" />
+    <project name="device_samsung_slsi_sepolicy"                   path="device/samsung_slsi/sepolicy"          remote="source"      revision="android-13" />
     <project name="android_hardware_samsung"                       path="hardware/samsung"                      remote="source"      revision="android-13" />
     <project name="android_hardware_samsung_slsi-linaro_openmax"   path="hardware/samsung_slsi-linaro/openmax"  remote="LineageOS"   revision="lineage-20" />
     <project name="android_hardware_samsung_slsi-linaro_exynos"    path="hardware/samsung_slsi-linaro/exynos"   remote="LineageOS"   revision="lineage-20" />
