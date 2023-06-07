@@ -16,14 +16,14 @@
     <project name="android_device_samsung_exynos9820-common"            path="device/samsung/exynos9820-common" remote="source"      revision="derpfest" />
 
     <!--Vendors Trees-->
-    <project name="vendor_samsung_beyond0lte"           path="vendor/samsung/beyond0lte"        remote="derp"      revision="13.0" />
-    <project name="vendor_samsung_beyond1lte"           path="vendor/samsung/beyond1lte"        remote="derp"      revision="13.0" />
-    <project name="vendor_samsung_beyond2lte"           path="vendor/samsung/beyond2lte"        remote="derp"      revision="13.0" />
-    <project name="vendor_samsung_beyondx"              path="vendor/samsung/beyondx"           remote="derp"      revision="13.0" />
-    <project name="vendor_samsung_d1"                   path="vendor/samsung/d1"                remote="derp"      revision="13 0" />
-    <project name="vendor_samsung_d2s"                  path="vendor/samsung/d2s"               remote="derp"      revision="13.0" />
-    <project name="vendor_samsung_d2x"                  path="vendor/samsung/d2x"               remote="derp"      revision="13.0" />
-    <project name="vendor_samsung_exynos9820-common"    path="vendor/samsung/exynos9820-common" remote="derp"      revision="13.0" />
+    <project name="vendor_samsung_beyond0lte"           path="vendor/samsung/beyond0lte"        remote="source"      revision="13.0" />
+    <project name="vendor_samsung_beyond1lte"           path="vendor/samsung/beyond1lte"        remote="source"      revision="13.0" />
+    <project name="vendor_samsung_beyond2lte"           path="vendor/samsung/beyond2lte"        remote="source"      revision="13.0" />
+    <project name="vendor_samsung_beyondx"              path="vendor/samsung/beyondx"           remote="source"      revision="13.0" />
+    <project name="vendor_samsung_d1"                   path="vendor/samsung/d1"                remote="source"      revision="13 0" />
+    <project name="vendor_samsung_d2s"                  path="vendor/samsung/d2s"               remote="source"      revision="13.0" />
+    <project name="vendor_samsung_d2x"                  path="vendor/samsung/d2x"               remote="source"      revision="13.0" />
+    <project name="vendor_samsung_exynos9820-common"    path="vendor/samsung/exynos9820-common" remote="source"      revision="13.0" />
 
     <!--Kernel Tree-->
     <project name="kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source"      revision="13" />
