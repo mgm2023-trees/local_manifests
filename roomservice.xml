@@ -37,4 +37,4 @@
     <project name="android_hardware_samsung_slsi-linaro_config"    path="hardware/samsung_slsi-linaro/config"   remote="LineageOS"   revision="lineage-20" />
     <project name="android_hardware_samsung_slsi-linaro_graphics"  path="hardware/samsung_slsi-linaro/graphics" remote="LineageOS"   revision="lineage-20" />
     <project name="vendor_v4afx"                                   path="vendor/v4afx"                          remote="source"      revision="main" />
-<manifest>
+</manifest>
