@@ -7,7 +7,7 @@
 
     <!--Devices Trees-->
     <project name="device_samsung_beyond0lte"                   path="device/samsung/beyond0lte"        remote="source"      revision="lineage-20" />
-    <project name="device_samsung_beyond1lte"                   path="device/samsung/beyond1lte"        remote="source"      revision="lineage-20 />
+    <project name="device_samsung_beyond1lte"                   path="device/samsung/beyond1lte"        remote="source"      revision="lineage-20" />
     <project name="device_samsung_beyond2lte"                   path="device/samsung/beyond2lte"        remote="source"      revision="lineage-20" />
     <project name="device_samsung_beyondx"                      path="device/samsung/beyondx"           remote="source"      revision="lineage-20" />
     <project name="device_samsung_d1"                           path="device/samsung/d1"                remote="source"      revision="lineage-20" />
