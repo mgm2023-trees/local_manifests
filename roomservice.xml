@@ -2,41 +2,40 @@
 <manifest>
 
     <!--Remotes-->
-    <remote name="source"          fetch="https://github.com/Mgm2023"/>
+    <remote name="source"          fetch="https://github.com/mgm2023-trees"/>
     <remote name="LineageOS"       fetch="https://github.com/LineageOS"/>
 
     <!--Devices Trees-->
-    <project name="device_samsung_beyond0lte"                   path="device/samsung/beyond0lte"        remote="source"      revision="derp-13" />
-    <project name="device_samsung_beyond1lte"                   path="device/samsung/beyond1lte"        remote="source"      revision="derp-13" />
-    <project name="device_samsung_beyond2lte"                   path="device/samsung/beyond2lte"        remote="source"      revision="derp-13" />
-    <project name="device_samsung_beyondx"                      path="device/samsung/beyondx"           remote="source"      revision="derp-13" />
-    <project name="device_samsung_d1"                           path="device/samsung/d1"                remote="source"      revision="derp-13" />
-    <project name="device_samsung_d2s"                          path="device/samsung/d2s"               remote="source"      revision="derp-13" />
-    <project name="device_samsung_d2x"                          path="device/samsung/d2x"               remote="source"      revision="derp-13" />
-    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"      revision="derp-13" />
+    <project name="android_device_samsung_beyond0lte"                   path="device/samsung/beyond0lte"        remote="source"      revision="derp-13" />
+    <project name="android_device_samsung_beyond1lte"                   path="device/samsung/beyond1lte"        remote="source"      revision="derp-13" />
+    <project name="android_device_samsung_beyond2lte"                   path="device/samsung/beyond2lte"        remote="source"      revision="derp-13" />
+    <project name="android_device_samsung_beyondx"                      path="device/samsung/beyondx"           remote="source"      revision="derp-13" />
+    <project name="android_device_samsung_d1"                           path="device/samsung/d1"                remote="source"      revision="derp-13" />
+    <project name="android_device_samsung_d2s"                          path="device/samsung/d2s"               remote="source"      revision="derp-13" />
+    <project name="android_device_samsung_d2x"                          path="device/samsung/d2x"               remote="source"      revision="derp-13" />
+    <project name="android_device_samsung_exynos9820-common"            path="device/samsung/exynos9820-common" remote="source"      revision="derp-13" />
 
     <!--Vendors Trees-->
-    <project name="vendor_samsung_beyond0lte"                   path="vendor/samsung/beyond0lte"        remote="derp-devices"      revision="13" />
-    <project name="vendor_samsung_beyond1lte"                   path="vendor/samsung/beyond1lte"        remote="derp-devices"      revision="13" />
-    <project name="vendor_samsung_beyond2lte"                   path="vendor/samsung/beyond2lte"        remote="derp-devices"      revision="13" />
-    <project name="vendor_samsung_beyondx"                      path="vendor/samsung/beyondx"           remote="derp-devices"      revision="13" />
-    <project name="vendor_samsung_d1"                           path="vendor/samsung/d1"                remote="derp-devices"      revision="13" />
-    <project name="vendor_samsung_d2s"                          path="vendor/samsung/d2s"               remote="derp-devices"      revision="13" />
-    <project name="vendor_samsung_d2x"                          path="vendor/samsung/d2x"               remote="derp-devices"      revision="13" />
-    <project name="vendor_samsung_exynos9820-common"            path="vendor/samsung/exynos9820-common" remote="derp-devices"      revision="13" />
+    <project name="proprietary_vendor_samsung_beyond0lte"               path="vendor/samsung/beyond0lte"        remote="source"      revision="lineage-20" />
+    <project name="proprietary_vendor_samsung_beyond1lte"               path="vendor/samsung/beyond1lte"        remote="source"      revision="lineage-20" />
+    <project name="proprietary_vendor_samsung_beyond2lte"               path="vendor/samsung/beyond2lte"        remote="source"      revision="lineage-20" />
+    <project name="proprietary_vendor_samsung_beyondx"                  path="vendor/samsung/beyondx"           remote="source"      revision="lineage-20" />
+    <project name="proprietary_vendor_samsung_d1"                       path="vendor/samsung/d1"                remote="source"      revision="lineage-20" />
+    <project name="proprietary_vendor_samsung_d2s"                      path="vendor/samsung/d2s"               remote="source"      revision="lineage-20" />
+    <project name="proprietary_vendor_samsung_d2x"                      path="vendor/samsung/d2x"               remote="source"      revision="lineage-20" />
+    <project name="proprietary_vendor_samsung_exynos9820-common"        path="vendor/samsung/exynos9820-common" remote="source"      revision="lineage-20" />
 
     <!--Kernel Tree-->
-    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source"            revision="android-13-2" />
+    <project name="android_kernel_samsung_exynos9820"                   path="kernel/samsung/exynos9820"        remote="source"      revision="android-13-2" />
 
     <!-- Dependencies -->
-    <project name="device_samsung_slsi_sepolicy"                   path="device/samsung_slsi/sepolicy"          remote="source"      revision="android-13" />
-    <project name="android_hardware_samsung"                       path="hardware/samsung"                      remote="source"      revision="android-13" />
+    <project name="android_device_samsung_slsi_sepolicy"           path="device/samsung_slsi/sepolicy"          remote="source"      revision="lineage-20" />
+    <project name="android_hardware_samsung"                       path="hardware/samsung"                      remote="source"      revision="lineage-20" />
     <project name="android_hardware_samsung_slsi-linaro_openmax"   path="hardware/samsung_slsi-linaro/openmax"  remote="LineageOS"   revision="lineage-20" />
     <project name="android_hardware_samsung_slsi-linaro_exynos"    path="hardware/samsung_slsi-linaro/exynos"   remote="LineageOS"   revision="lineage-20" />
     <project name="android_hardware_samsung_slsi-linaro_exynos5"   path="hardware/samsung_slsi-linaro/exynos5"  remote="LineageOS"   revision="lineage-20" />
     <project name="android_hardware_samsung_slsi-linaro_config"    path="hardware/samsung_slsi-linaro/config"   remote="LineageOS"   revision="lineage-20" />
     <project name="android_hardware_samsung_slsi-linaro_graphics"  path="hardware/samsung_slsi-linaro/graphics" remote="LineageOS"   revision="lineage-20" />
-    <project name="vendor_v4afx"                                   path="vendor/v4afx"                          remote="source"      revision="main" />
 </manifest>
 
 
