@@ -2,7 +2,7 @@
 <manifest>
 
     <!--Remotes-->
-    <remote name="source"          fetch="https://github.com/Mgm2023"/>
+    <remote name="source"          fetch="https://github.com/mgm2023-trees"/>
     <remote name="LineageOS"       fetch="https://github.com/LineageOS"/>
 
     <!--Devices Trees-->
@@ -11,9 +11,9 @@
     <project name="device_samsung_beyond2lte"                   path="device/samsung/beyond2lte"        remote="source"      revision="lineage-20" />
     <project name="device_samsung_beyondx"                      path="device/samsung/beyondx"           remote="source"      revision="lineage-20" />
     <project name="device_samsung_d1"                           path="device/samsung/d1"                remote="source"      revision="lineage-20" />
-    <project name="device_samsung_d2s"                          path="device/samsung/d2s"               remote="source"      revision="lineage-20" />
+    <project name="device_samsung_d2s"                          path="device/samsung/d2s"               remote="source"      revision="aospa-13" />
     <project name="device_samsung_d2x"                          path="device/samsung/d2x"               remote="source"      revision="lineage-20" />
-    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"      revision="android-13" />
+    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"      revision="aospa-13" />
 
     <!--Vendors Trees-->
     <project name="vendor_samsung_beyond0lte"           path="vendor/samsung/beyond0lte"        remote="source"      revision="13.0" />
